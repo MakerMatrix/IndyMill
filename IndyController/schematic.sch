@@ -18273,6 +18273,24 @@ RST	GND</description>
 <text x="0" y="4.1386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.96" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOT95P247X112-3N" urn="urn:adsk.eagle:footprint:30687884/1">
+<description>3-SOT23, 0.95 mm pitch, 2.47 mm span, 2.92 X 1.30 X 1.12 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.47 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
+<circle x="-1.204" y="1.7486" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5586" x2="0.7" y2="1.5586" width="0.12" layer="21"/>
+<wire x1="0.7" y1="1.5586" x2="0.7" y2="0.5486" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5586" x2="0.7" y2="-1.5586" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5586" x2="0.7" y2="-0.5486" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.52" x2="-0.7" y2="-1.52" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.52" x2="-0.7" y2="1.52" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.52" x2="0.7" y2="1.52" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.52" x2="0.7" y2="-1.52" width="0.12" layer="51"/>
+<smd name="1" x="-1.0971" y="0.95" dx="1.1637" dy="0.5891" layer="1"/>
+<smd name="2" x="-1.0971" y="-0.95" dx="1.1637" dy="0.5891" layer="1"/>
+<smd name="3" x="1.0971" y="0" dx="1.1637" dy="0.5891" layer="1"/>
+<text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:24289151/1" type="model">
@@ -18294,6 +18312,13 @@ RST	GND</description>
 &lt;p&gt;3-pin TO, DPAK package with 2.28 mm pitch, 9.98 mm span with body size 6.50 X 6.12 X 2.30 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="TO228P998X230-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P247X112-3N" urn="urn:adsk.eagle:package:30687878/1" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.47 mm span, 2.92 X 1.30 X 1.12 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.47 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P247X112-3N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -18398,6 +18423,18 @@ RST	GND</description>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
 <text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LM3480">
+<description>30V 1.2V @ 100mA Fixed 12V SOT-23(SOT-23-3) Linear Voltage Regulators</description>
+<pin name="IN" x="-12.7" y="2.54" length="middle"/>
+<pin name="OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="-7.366" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -18506,6 +18543,26 @@ min 3V max 32V
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30676167/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3480IM3">
+<gates>
+<gate name="G$1" symbol="LM3480" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT23-3" package="SOT95P247X112-3N">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30687878/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -21186,7 +21243,7 @@ http://www.micrel.com&lt;p&gt;
 <part name="USB" library="NikodemBartnik" deviceset="U-USBBR04P-F000" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U$2" library="NikodemBartnik" deviceset="LM358DR" device="LM358DR_SOIC8" package3d_urn="urn:adsk.eagle:package:24289151/1"/>
+<part name="U$2" library="NikodemBartnik" deviceset="LM358DR" device="LM358DR_SOIC8" package3d_urn="urn:adsk.eagle:package:24289151/1" value="LM358"/>
 <part name="FDN340P" library="NikodemBartnik" deviceset="FDN340P" device="SOT23" package3d_urn="urn:adsk.eagle:package:30631539/1"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -21233,7 +21290,7 @@ http://www.micrel.com&lt;p&gt;
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1" value="2A"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="IC2" library="v-reg-micrel" library_urn="urn:adsk.eagle:library:408" deviceset="MIC5219BM5" device="" package3d_urn="urn:adsk.eagle:package:30272/1" value="LP2985-33DBVR"/>
+<part name="IC2" library="v-reg-micrel" library_urn="urn:adsk.eagle:library:408" deviceset="MIC5219BM5" device="" package3d_urn="urn:adsk.eagle:package:30272/1" value="LP2985"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -21252,7 +21309,7 @@ http://www.micrel.com&lt;p&gt;
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="U$3" library="NikodemBartnik" deviceset="LM358DR" device="LM358DR_SOIC8" package3d_urn="urn:adsk.eagle:package:24289151/1"/>
+<part name="U$3" library="NikodemBartnik" deviceset="LM358DR" device="LM358DR_SOIC8" package3d_urn="urn:adsk.eagle:package:24289151/1" value="LM358"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21260,6 +21317,11 @@ http://www.micrel.com&lt;p&gt;
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="0-10VOUT" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="0-10V_OUTPUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="U$4" library="NikodemBartnik" deviceset="LM3480IM3" device="SOT23-3" package3d_urn="urn:adsk.eagle:package:30687878/1" value="LM3480"/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -21483,6 +21545,24 @@ http://www.micrel.com&lt;p&gt;
 <instance part="GND13" gate="1" x="31.75" y="100.33" smashed="yes">
 <attribute name="VALUE" x="29.21" y="97.79" size="1.778" layer="96"/>
 </instance>
+<instance part="U$4" gate="G$1" x="137.16" y="134.62" smashed="yes">
+<attribute name="NAME" x="129.794" y="140.462" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.016" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="P+12" gate="1" x="154.94" y="144.78" smashed="yes">
+<attribute name="VALUE" x="152.4" y="139.7" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND24" gate="1" x="137.16" y="114.554" smashed="yes">
+<attribute name="VALUE" x="134.62" y="112.014" size="1.778" layer="96"/>
+</instance>
+<instance part="C14" gate="G$1" x="121.92" y="125.73" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.428" y="128.143" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.016" y="125.095" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C15" gate="G$1" x="154.94" y="125.73" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="128.143" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.036" y="125.095" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21632,6 +21712,19 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="241.3" y1="69.85" x2="241.3" y2="65.278" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="137.16" y1="117.094" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="123.19" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+<junction x="137.16" y="119.38"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="123.19" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -22035,6 +22128,15 @@ http://www.micrel.com&lt;p&gt;
 <junction x="203.2" y="50.8"/>
 <label x="205.74" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="IN"/>
+<wire x1="124.46" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="137.16" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="130.81" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<junction x="121.92" y="137.16"/>
+<label x="121.92" y="142.24" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
@@ -22069,6 +22171,17 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="154.94" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="91.44" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <junction x="157.48" y="86.36"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="OUT"/>
+<pinref part="P+12" gate="1" pin="+12V"/>
+<wire x1="149.86" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="137.16" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="130.81" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<junction x="154.94" y="137.16"/>
 </segment>
 </net>
 </nets>
@@ -22441,6 +22554,11 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="27.94" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <label x="30.48" y="157.48" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JXD" gate="1" pin="2"/>
+<wire x1="35.56" y1="50.8" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="STEPPERS_ENABLE" class="0">
 <segment>
@@ -22505,11 +22623,6 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="ZM" gate="-2" pin="KL"/>
 <wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="30.48" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JXD" gate="1" pin="2"/>
-<wire x1="35.56" y1="50.8" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<label x="35.56" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JZD" gate="1" pin="2"/>
@@ -22592,8 +22705,9 @@ http://www.micrel.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
-<label x="129.54" y="124.46" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="137.16" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="124.46" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<label x="132.08" y="127" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SPINDLE_DIR" class="0">
