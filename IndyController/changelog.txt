@@ -1,0 +1,4 @@
+4.10.2021:
+I just thought that it may be a good idea to just note down the thoughts while designing this project. Here I will write down what I changed, new ideas and other stuff connected to the IndyController.
+
+For the last few days I have been thinking about it a lot, I think I am going to change the concept and instead of designing a controller board for IndyMill I will design a new controller board for smaller CNC machines like Dremel CNC and in the future a new CNC that I want to start working on. IndyShield is good enough for IndyMill. By implementing TMC drivers I can simplify the construction of a CNC create a really inteligent control board powered with 24V. I will have to customize GRBL quite a lot. 

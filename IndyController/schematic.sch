@@ -18291,6 +18291,52 @@ RST	GND</description>
 <text x="0" y="2.6336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1936" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOP65P640X120-29T275X620N" urn="urn:adsk.eagle:footprint:31349288/1">
+<description>28-SOP, 0.65 mm pitch, 6.40 mm span, 9.70 X 4.40 X 1.20 mm body, 6.20 X 2.75 mm thermal pad
+&lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 9.70 X 4.40 X 1.20 mm and thermal pad size 6.20 X 2.75 mm&lt;/p&gt;</description>
+<circle x="-2.9538" y="4.9308" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="4.6808" x2="-2.25" y2="4.9" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="4.9" x2="2.25" y2="4.9" width="0.12" layer="21"/>
+<wire x1="2.25" y1="4.9" x2="2.25" y2="4.6808" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-4.6808" x2="-2.25" y2="-4.9" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-4.9" x2="2.25" y2="-4.9" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-4.9" x2="2.25" y2="-4.6808" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-4.9" x2="-2.25" y2="-4.9" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="-4.9" x2="-2.25" y2="4.9" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="4.9" x2="2.25" y2="4.9" width="0.12" layer="51"/>
+<wire x1="2.25" y1="4.9" x2="2.25" y2="-4.9" width="0.12" layer="51"/>
+<smd name="1" x="-2.8783" y="4.225" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="2" x="-2.8783" y="3.575" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="3" x="-2.8783" y="2.925" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="4" x="-2.8783" y="2.275" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="5" x="-2.8783" y="1.625" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="6" x="-2.8783" y="0.975" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="7" x="-2.8783" y="0.325" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="8" x="-2.8783" y="-0.325" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="9" x="-2.8783" y="-0.975" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="10" x="-2.8783" y="-1.625" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="11" x="-2.8783" y="-2.275" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="12" x="-2.8783" y="-2.925" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="13" x="-2.8783" y="-3.575" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="14" x="-2.8783" y="-4.225" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="15" x="2.8783" y="-4.225" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="16" x="2.8783" y="-3.575" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="17" x="2.8783" y="-2.925" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="18" x="2.8783" y="-2.275" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="19" x="2.8783" y="-1.625" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="20" x="2.8783" y="-0.975" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="21" x="2.8783" y="-0.325" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="22" x="2.8783" y="0.325" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="23" x="2.8783" y="0.975" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="24" x="2.8783" y="1.625" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="25" x="2.8783" y="2.275" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="26" x="2.8783" y="2.925" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="27" x="2.8783" y="3.575" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="28" x="2.8783" y="4.225" dx="1.5588" dy="0.4035" layer="1"/>
+<smd name="29" x="0" y="0" dx="2.75" dy="6.2" layer="1" thermals="no"/>
+<text x="0" y="5.8158" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:24289151/1" type="model">
@@ -18319,6 +18365,13 @@ RST	GND</description>
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.47 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P247X112-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P640X120-29T275X620N" urn="urn:adsk.eagle:package:31349286/1" type="model">
+<description>28-SOP, 0.65 mm pitch, 6.40 mm span, 9.70 X 4.40 X 1.20 mm body, 6.20 X 2.75 mm thermal pad
+&lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 9.70 X 4.40 X 1.20 mm and thermal pad size 6.20 X 2.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-29T275X620N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -18435,6 +18488,42 @@ RST	GND</description>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="-7.366" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="1.016" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TMC2226">
+<pin name="OB1" x="-17.78" y="17.78" length="middle"/>
+<pin name="BRB" x="-17.78" y="15.24" length="middle"/>
+<pin name="VS" x="-17.78" y="12.7" length="middle"/>
+<pin name="OB2" x="-17.78" y="10.16" length="middle"/>
+<pin name="ENN" x="-17.78" y="7.62" length="middle"/>
+<pin name="GND" x="-17.78" y="5.08" length="middle"/>
+<pin name="CPO" x="-17.78" y="2.54" length="middle"/>
+<pin name="CPI" x="-17.78" y="0" length="middle"/>
+<pin name="VCP" x="-17.78" y="-2.54" length="middle"/>
+<pin name="SPREAD" x="-17.78" y="-5.08" length="middle"/>
+<pin name="5VOUT" x="-17.78" y="-7.62" length="middle"/>
+<pin name="MS1_ADO" x="-17.78" y="-10.16" length="middle"/>
+<pin name="-" x="-17.78" y="-12.7" length="middle"/>
+<pin name="MS2_AD1" x="-17.78" y="-15.24" length="middle"/>
+<pin name="DIAG" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="INDEX" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="CLK\" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PDN_UART" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="VCC_IO" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="STEP" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="VREF" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GND2" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="DIR" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="STDBY" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="OA2" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="VS2" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="BRA" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="OA1" x="17.78" y="17.78" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.1524" layer="94"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -18563,6 +18652,53 @@ min 3V max 32V
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30687878/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMC2226">
+<description>Step/Dir Drivers for Two-Phase Bipolar Stepper Motors up to 2.8A peak – StealthChop™ for Quiet
+Movement – UART Interface Option – Sensorless Stall Detection StallGuard4</description>
+<gates>
+<gate name="G$1" symbol="TMC2226" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TMC2226_HTSSOP28" package="SOP65P640X120-29T275X620N">
+<connects>
+<connect gate="G$1" pin="-" pad="13"/>
+<connect gate="G$1" pin="5VOUT" pad="11"/>
+<connect gate="G$1" pin="BRA" pad="27"/>
+<connect gate="G$1" pin="BRB" pad="2"/>
+<connect gate="G$1" pin="CLK\" pad="17"/>
+<connect gate="G$1" pin="CPI" pad="8"/>
+<connect gate="G$1" pin="CPO" pad="7"/>
+<connect gate="G$1" pin="DIAG" pad="15"/>
+<connect gate="G$1" pin="DIR" pad="23"/>
+<connect gate="G$1" pin="ENN" pad="5"/>
+<connect gate="G$1" pin="GND" pad="6 29"/>
+<connect gate="G$1" pin="GND2" pad="22"/>
+<connect gate="G$1" pin="INDEX" pad="16"/>
+<connect gate="G$1" pin="MS1_ADO" pad="12"/>
+<connect gate="G$1" pin="MS2_AD1" pad="14"/>
+<connect gate="G$1" pin="OA1" pad="28"/>
+<connect gate="G$1" pin="OA2" pad="25"/>
+<connect gate="G$1" pin="OB1" pad="1"/>
+<connect gate="G$1" pin="OB2" pad="4"/>
+<connect gate="G$1" pin="PDN_UART" pad="18"/>
+<connect gate="G$1" pin="SPREAD" pad="10"/>
+<connect gate="G$1" pin="STDBY" pad="24"/>
+<connect gate="G$1" pin="STEP" pad="20"/>
+<connect gate="G$1" pin="VCC_IO" pad="19"/>
+<connect gate="G$1" pin="VCP" pad="9"/>
+<connect gate="G$1" pin="VREF" pad="21"/>
+<connect gate="G$1" pin="VS" pad="3"/>
+<connect gate="G$1" pin="VS2" pad="26"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31349286/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -21322,6 +21458,8 @@ http://www.micrel.com&lt;p&gt;
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
+<part name="U$5" library="NikodemBartnik" deviceset="TMC2226" device="TMC2226_HTSSOP28" package3d_urn="urn:adsk.eagle:package:31349286/1"/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22767,6 +22905,25 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="181.102" y1="144.526" x2="181.102" y2="138.938" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="U$5" gate="G$1" x="71.12" y="121.92" smashed="yes">
+<attribute name="NAME" x="58.42" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="101.6" size="1.778" layer="95"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
