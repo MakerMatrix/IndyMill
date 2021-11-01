@@ -21342,50 +21342,6 @@ http://www.micrel.com&lt;p&gt;
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-</package>
-<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-</package>
 <package name="1X04" urn="urn:adsk.eagle:footprint:22258/1" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -21524,18 +21480,6 @@ http://www.micrel.com&lt;p&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X02"/>
-</packageinstances>
-</package3d>
-<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X02/90"/>
-</packageinstances>
-</package3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="4">
 <description>PIN HEADER</description>
 <packageinstances>
@@ -21562,16 +21506,6 @@ http://www.micrel.com&lt;p&gt;
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="4">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
 <symbol name="PINHD4" urn="urn:adsk.eagle:symbol:22257/1" library_version="4">
 <wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
@@ -21597,42 +21531,6 @@ http://www.micrel.com&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="98" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="/90" package="1X02/90">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="24" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/5" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -21873,6 +21771,190 @@ http://www.micrel.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Rembrandt Electronics - JST XH Connectors v1-0">
+<packages>
+<package name="JST-XH-02-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="3.7" y1="-2.3575" x2="3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="3.7" y1="3.3925" x2="-3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="3.3925" x2="-3.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="-2.3575" x2="3.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.255" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.3025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.8675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-1.3" y1="-2.3" x2="-1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-2.3" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-1.8" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+</package>
+<package name="JST-XH-02-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="3.7" y1="-2.3575" x2="3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="3.7" y1="3.3925" x2="-3.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="3.3925" x2="-3.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-3.7" y1="-2.3575" x2="3.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="2" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<text x="-4.255" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.3025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.8675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-1.3" y1="-2.3" x2="-1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="1.3" y1="-2.3" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-1.3" y1="-1.8" x2="1.3" y2="-1.8" width="0.2" layer="21"/>
+</package>
+<package name="JST-XH-03-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-03-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="M">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JST-XH-02-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-2" symbol="M" x="2.54" y="15.24" addlevel="always" swaplevel="1"/>
+<gate name="-1" symbol="MV" x="2.54" y="17.78" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-02-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-02-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-03-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-03-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-03-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21915,12 +21997,7 @@ http://www.micrel.com&lt;p&gt;
 <part name="FDN340P" library="NikodemBartnik" deviceset="FDN340P" device="SOT23" package3d_urn="urn:adsk.eagle:package:30631539/1"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="PROBE" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="COOL" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="SPIN_E" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="SPIN_DIR" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1" value="500mA"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -21961,7 +22038,6 @@ http://www.micrel.com&lt;p&gt;
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="0-10VOUT" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
-<part name="0-10V_OUTPUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U$4" library="NikodemBartnik" deviceset="LM3480IM3" device="SOT23-3" package3d_urn="urn:adsk.eagle:package:30687878/1" value="LM3480"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22073,6 +22149,14 @@ http://www.micrel.com&lt;p&gt;
 <part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DCBARREL" device="PTH" package3d_urn="urn:adsk.eagle:package:6240729/1"/>
+<part name="PROBE" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
+<part name="SPIN_DIR" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
+<part name="SPIN_E" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
+<part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="0-10V_OUT" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
+<part name="COOL" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
+<part name="P+30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -22201,10 +22285,6 @@ http://www.micrel.com&lt;p&gt;
 <instance part="P+8" gate="1" x="203.962" y="169.164" smashed="yes">
 <attribute name="VALUE" x="201.422" y="164.084" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="F1" gate="1" x="43.18" y="73.66" smashed="yes">
-<attribute name="NAME" x="39.37" y="75.057" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="70.739" size="1.778" layer="96"/>
-</instance>
 <instance part="P+1" gate="1" x="243.84" y="144.78" smashed="yes">
 <attribute name="VALUE" x="241.3" y="139.7" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -22301,8 +22381,8 @@ http://www.micrel.com&lt;p&gt;
 <attribute name="NAME" x="129.794" y="140.462" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.016" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="1" x="154.94" y="144.78" smashed="yes">
-<attribute name="VALUE" x="152.4" y="139.7" size="1.778" layer="96" rot="R90"/>
+<instance part="P+12" gate="1" x="154.94" y="157.48" smashed="yes">
+<attribute name="VALUE" x="152.4" y="152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND24" gate="1" x="137.16" y="114.554" smashed="yes">
 <attribute name="VALUE" x="134.62" y="112.014" size="1.778" layer="96"/>
@@ -22318,6 +22398,10 @@ http://www.micrel.com&lt;p&gt;
 <instance part="CN1" gate="G$1" x="134.62" y="99.06" smashed="yes">
 <attribute name="NAME" x="129.54" y="104.14" size="1.27" layer="95"/>
 <attribute name="VALUE" x="129.54" y="93.98" size="1.27" layer="96"/>
+</instance>
+<instance part="SJ2" gate="1" x="137.16" y="147.32" smashed="yes">
+<attribute name="NAME" x="134.62" y="149.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="134.62" y="143.51" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22779,19 +22863,12 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="224.282" y1="144.018" x2="228.092" y2="144.018" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="USB" gate="G$1" pin="VCC"/>
-<pinref part="F1" gate="1" pin="1"/>
-<wire x1="35.56" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="USBVCC" class="0">
 <segment>
-<pinref part="F1" gate="1" pin="2"/>
-<wire x1="48.26" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="73.66" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <label x="50.8" y="76.2" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="USB" gate="G$1" pin="VCC"/>
+<wire x1="35.56" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FDN340P" gate="G$1" pin="D"/>
@@ -22844,11 +22921,15 @@ http://www.micrel.com&lt;p&gt;
 <segment>
 <pinref part="U$4" gate="G$1" pin="IN"/>
 <wire x1="124.46" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="137.16" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="137.16" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="147.32" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="130.81" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="137.16"/>
-<label x="121.92" y="142.24" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="121.92" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+<wire x1="132.08" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
+<junction x="121.92" y="147.32"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -22896,10 +22977,14 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="U$4" gate="G$1" pin="OUT"/>
 <pinref part="P+12" gate="1" pin="+12V"/>
 <wire x1="149.86" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="137.16" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="147.32" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="130.81" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <junction x="154.94" y="137.16"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="142.24" y1="147.32" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
+<junction x="154.94" y="147.32"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -22924,34 +23009,6 @@ http://www.micrel.com&lt;p&gt;
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
-</instance>
-<instance part="PROBE" gate="-1" x="81.28" y="104.14" smashed="yes">
-<attribute name="NAME" x="81.28" y="105.029" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="PROBE" gate="-2" x="81.28" y="99.06" smashed="yes">
-<attribute name="VALUE" x="78.74" y="95.377" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="99.949" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="COOL" gate="-1" x="81.28" y="116.84" smashed="yes">
-<attribute name="NAME" x="81.28" y="117.729" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="COOL" gate="-2" x="81.28" y="111.76" smashed="yes">
-<attribute name="VALUE" x="78.74" y="108.077" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="112.649" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SPIN_E" gate="-1" x="81.28" y="38.1" smashed="yes">
-<attribute name="NAME" x="81.28" y="38.989" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SPIN_E" gate="-2" x="81.28" y="33.02" smashed="yes">
-<attribute name="VALUE" x="78.74" y="29.337" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="33.909" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SPIN_DIR" gate="-1" x="81.28" y="25.4" smashed="yes">
-<attribute name="NAME" x="81.28" y="26.289" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SPIN_DIR" gate="-2" x="81.28" y="20.32" smashed="yes">
-<attribute name="VALUE" x="78.74" y="16.637" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="21.209" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND18" gate="1" x="109.22" y="93.98" smashed="yes">
 <attribute name="VALUE" x="106.68" y="91.44" size="1.778" layer="96"/>
@@ -22993,16 +23050,59 @@ http://www.micrel.com&lt;p&gt;
 <instance part="P+2" gate="1" x="181.102" y="147.066" smashed="yes">
 <attribute name="VALUE" x="178.562" y="141.986" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="0-10VOUT" gate="-1" x="233.68" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="233.68" y="141.351" size="1.778" layer="95"/>
+<instance part="0-10VOUT" gate="-1" x="223.52" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="223.52" y="141.351" size="1.778" layer="95"/>
 </instance>
-<instance part="0-10VOUT" gate="-2" x="233.68" y="147.32" smashed="yes" rot="R180">
-<attribute name="VALUE" x="236.22" y="151.003" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="233.68" y="146.431" size="1.778" layer="95"/>
+<instance part="0-10VOUT" gate="-2" x="223.52" y="147.32" smashed="yes" rot="R180">
+<attribute name="VALUE" x="226.06" y="151.003" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="223.52" y="146.431" size="1.778" layer="95"/>
 </instance>
-<instance part="0-10V_OUTPUT" gate="G$1" x="220.98" y="144.78" smashed="yes">
-<attribute name="NAME" x="214.63" y="150.495" size="1.778" layer="95"/>
-<attribute name="VALUE" x="214.63" y="139.7" size="1.778" layer="96"/>
+<instance part="PROBE" gate="-2" x="78.74" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="102.362" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="PROBE" gate="-1" x="78.74" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="99.822" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="79.502" y="97.663" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SPIN_DIR" gate="-2" x="81.28" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="26.162" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="SPIN_DIR" gate="-1" x="81.28" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.74" y="23.622" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="82.042" y="21.463" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SPIN_E" gate="-1" x="78.74" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="36.322" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="79.502" y="34.163" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SPIN_E" gate="-2" x="78.74" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="38.862" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="SPIN_E" gate="-3" x="78.74" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="41.402" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="P+29" gate="1" x="83.82" y="48.514" smashed="yes">
+<attribute name="VALUE" x="81.28" y="43.434" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="0-10V_OUT" gate="-2" x="208.28" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="205.74" y="155.702" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="0-10V_OUT" gate="-1" x="208.28" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="205.74" y="153.162" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="209.042" y="151.003" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="COOL" gate="-1" x="78.74" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="115.062" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="79.502" y="112.903" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="COOL" gate="-2" x="78.74" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="117.602" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="COOL" gate="-3" x="78.74" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="120.142" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="P+30" gate="1" x="83.82" y="127.254" smashed="yes">
+<attribute name="VALUE" x="81.28" y="122.174" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -23010,24 +23110,30 @@ http://www.micrel.com&lt;p&gt;
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="PROBE" gate="-2" pin="KL"/>
-<wire x1="86.36" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="99.06" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="COOL" gate="-2" pin="KL"/>
-<wire x1="86.36" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="111.76" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <junction x="109.22" y="99.06"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="PROBE" gate="-1" pin="S"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="COOL" gate="-1" pin="S"/>
+<wire x1="81.28" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SPIN_E" gate="-2" pin="KL"/>
 <wire x1="86.36" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="33.02" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="SPIN_DIR" gate="-2" pin="KL"/>
 <wire x1="116.84" y1="20.32" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 <junction x="116.84" y="20.32"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="86.36" y1="33.02" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="20.32" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SPIN_DIR" gate="-1" pin="S"/>
+<wire x1="86.36" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SPIN_E" gate="-1" pin="S"/>
+<wire x1="86.36" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
@@ -23047,35 +23153,39 @@ http://www.micrel.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="218.44" y1="144.78" x2="210.566" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="144.78" x2="210.566" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="210.566" y1="144.78" x2="210.566" y2="136.398" width="0.1524" layer="91"/>
-<pinref part="0-10V_OUTPUT" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="144.78" x2="226.06" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="144.78" x2="226.06" y2="142.24" width="0.1524" layer="91"/>
-<junction x="218.44" y="144.78"/>
+<wire x1="215.9" y1="144.78" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="0-10VOUT" gate="-1" pin="KL"/>
-<wire x1="226.06" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="0-10V_OUT" gate="-1" pin="S"/>
+<wire x1="210.82" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="152.4" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+<junction x="213.36" y="144.78"/>
 </segment>
 </net>
 <net name="COOL_ENABLE" class="0">
 <segment>
-<pinref part="COOL" gate="-1" pin="KL"/>
-<wire x1="86.36" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 <label x="88.9" y="116.84" size="1.778" layer="95" xref="yes"/>
+<pinref part="COOL" gate="-2" pin="S"/>
+<wire x1="81.28" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROBE" class="0">
 <segment>
-<pinref part="PROBE" gate="-1" pin="KL"/>
-<wire x1="86.36" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
 <label x="88.9" y="104.14" size="1.778" layer="95" xref="yes"/>
+<wire x1="88.9" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="PROBE" gate="-2" pin="S"/>
+<wire x1="83.82" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPINDLE_PWM" class="0">
 <segment>
-<pinref part="SPIN_E" gate="-1" pin="KL"/>
-<wire x1="86.36" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <label x="88.9" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="88.9" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SPIN_E" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -23086,9 +23196,9 @@ http://www.micrel.com&lt;p&gt;
 </net>
 <net name="SPINDLE_DIR" class="0">
 <segment>
-<pinref part="SPIN_DIR" gate="-1" pin="KL"/>
-<wire x1="86.36" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <label x="88.9" y="25.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="SPIN_DIR" gate="-2" pin="S"/>
+<wire x1="88.9" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -23125,13 +23235,15 @@ http://www.micrel.com&lt;p&gt;
 <wire x1="201.422" y1="121.158" x2="201.168" y2="121.158" width="0.1524" layer="91"/>
 <wire x1="201.422" y1="121.158" x2="205.74" y2="121.158" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="121.158" x2="208.026" y2="121.158" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="147.32" x2="205.74" y2="121.158" width="0.1524" layer="91"/>
 <junction x="205.74" y="121.158"/>
-<pinref part="0-10V_OUTPUT" gate="G$1" pin="1"/>
 <pinref part="0-10VOUT" gate="-2" pin="KL"/>
-<wire x1="218.44" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-<junction x="218.44" y="147.32"/>
+<pinref part="0-10V_OUT" gate="-2" pin="S"/>
+<wire x1="210.82" y1="154.94" x2="215.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
+<junction x="215.9" y="147.32"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -23139,6 +23251,20 @@ http://www.micrel.com&lt;p&gt;
 <pinref part="P+2" gate="1" pin="+12V"/>
 <pinref part="U$3" gate="G$1" pin="V+"/>
 <wire x1="181.102" y1="144.526" x2="181.102" y2="138.938" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="SPIN_E" gate="-3" pin="S"/>
+<pinref part="P+29" gate="1" pin="+5V"/>
+<wire x1="81.28" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="45.974" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="COOL" gate="-3" pin="S"/>
+<pinref part="P+30" gate="1" pin="+5V"/>
+<wire x1="81.28" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="124.714" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
