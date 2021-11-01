@@ -21865,6 +21865,53 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
 <wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
 </package>
+<package name="JST-XH-04-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="6.2" y1="-2.3575" x2="6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="6.2" y1="3.3925" x2="-6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="3.3925" x2="-6.2" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-2.3575" x2="6.2" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-6.655" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.0025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.4675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="3.9" y1="-2.3" x2="3.9" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-04-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="6.2" y1="-2.3575" x2="6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="6.2" y1="3.3925" x2="-6.2" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="3.3925" x2="-6.2" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-2.3575" x2="6.2" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" rot="R90"/>
+<text x="-6.655" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.0025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.4675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-3.8" y1="-2.3" x2="-3.8" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="3.9" y1="-2.3" x2="3.9" y2="-1.8" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M">
@@ -21953,6 +22000,47 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="JST-XH-04-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-04-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-04-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -21991,7 +22079,7 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="USB" library="NikodemBartnik" deviceset="U-USBBR04P-F000" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$2" library="NikodemBartnik" deviceset="LM358DR" device="LM358DR_SOIC8" package3d_urn="urn:adsk.eagle:package:24289151/1" value="LM358"/>
 <part name="FDN340P" library="NikodemBartnik" deviceset="FDN340P" device="SOT23" package3d_urn="urn:adsk.eagle:package:30631539/1"/>
@@ -22051,7 +22139,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
-<part name="MOT_X" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22077,7 +22164,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
-<part name="MOT_Y1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22104,7 +22190,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
-<part name="MOT_Y2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22130,7 +22215,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Z" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-4" device="" package3d_urn="urn:adsk.eagle:package:10695/1"/>
-<part name="MOT_Z" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22157,6 +22241,10 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="COOL" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 <part name="P+30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="MOT_X" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="MOT_Y1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="MOT_Y2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="MOT_Z" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -22265,7 +22353,7 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="USB" gate="G$1" x="25.4" y="66.04" smashed="yes">
 <attribute name="NAME" x="18.034" y="76.708" size="1.778" layer="95"/>
 </instance>
-<instance part="LED1" gate="G$1" x="40.64" y="21.59" smashed="yes" rot="R90">
+<instance part="PWR" gate="G$1" x="40.64" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.212" y="25.146" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.212" y="27.305" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -22542,7 +22630,7 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <junction x="144.78" y="81.28"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="21.59" x2="50.8" y2="21.59" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="21.59" x2="50.8" y2="19.05" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -22852,7 +22940,7 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <net name="N$6" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="21.59" x2="38.1" y2="21.59" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23320,10 +23408,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="VALUE" x="132.08" y="214.503" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="129.54" y="209.931" size="1.778" layer="95"/>
 </instance>
-<instance part="MOT_X" gate="A" x="144.78" y="200.66" smashed="yes">
-<attribute name="NAME" x="138.43" y="208.915" size="1.778" layer="95"/>
-<attribute name="VALUE" x="138.43" y="193.04" size="1.778" layer="96"/>
-</instance>
 <instance part="C20" gate="G$1" x="27.94" y="193.04" smashed="yes">
 <attribute name="NAME" x="29.464" y="193.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.464" y="188.341" size="1.778" layer="96"/>
@@ -23420,10 +23504,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="Y1" gate="-4" x="129.54" y="114.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="132.08" y="117.983" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="129.54" y="113.411" size="1.778" layer="95"/>
-</instance>
-<instance part="MOT_Y1" gate="A" x="144.78" y="104.14" smashed="yes">
-<attribute name="NAME" x="138.43" y="112.395" size="1.778" layer="95"/>
-<attribute name="VALUE" x="138.43" y="96.52" size="1.778" layer="96"/>
 </instance>
 <instance part="C26" gate="G$1" x="22.86" y="96.52" smashed="yes">
 <attribute name="NAME" x="24.384" y="96.901" size="1.778" layer="95"/>
@@ -23527,10 +23607,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="VALUE" x="302.26" y="117.983" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="299.72" y="113.411" size="1.778" layer="95"/>
 </instance>
-<instance part="MOT_Y2" gate="A" x="314.96" y="104.14" smashed="yes">
-<attribute name="NAME" x="308.61" y="112.395" size="1.778" layer="95"/>
-<attribute name="VALUE" x="308.61" y="96.52" size="1.778" layer="96"/>
-</instance>
 <instance part="C32" gate="G$1" x="193.04" y="96.52" smashed="yes">
 <attribute name="NAME" x="194.564" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.564" y="91.821" size="1.778" layer="96"/>
@@ -23628,10 +23704,6 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="VALUE" x="307.34" y="217.043" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="304.8" y="212.471" size="1.778" layer="95"/>
 </instance>
-<instance part="MOT_Z" gate="A" x="320.04" y="203.2" smashed="yes">
-<attribute name="NAME" x="313.69" y="211.455" size="1.778" layer="95"/>
-<attribute name="VALUE" x="313.69" y="195.58" size="1.778" layer="96"/>
-</instance>
 <instance part="C38" gate="G$1" x="198.12" y="195.58" smashed="yes">
 <attribute name="NAME" x="199.644" y="195.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="190.881" size="1.778" layer="96"/>
@@ -23689,6 +23761,58 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </instance>
 <instance part="GND59" gate="1" x="327.66" y="167.64" smashed="yes">
 <attribute name="VALUE" x="325.12" y="165.1" size="1.778" layer="96"/>
+</instance>
+<instance part="MOT_X" gate="-1" x="144.78" y="205.74" smashed="yes">
+<attribute name="NAME" x="147.32" y="204.978" size="1.524" layer="95"/>
+<attribute name="VALUE" x="144.018" y="207.137" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MOT_X" gate="-2" x="144.78" y="203.2" smashed="yes">
+<attribute name="NAME" x="147.32" y="202.438" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_X" gate="-3" x="144.78" y="200.66" smashed="yes">
+<attribute name="NAME" x="147.32" y="199.898" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_X" gate="-4" x="144.78" y="198.12" smashed="yes">
+<attribute name="NAME" x="147.32" y="197.358" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y1" gate="-1" x="144.78" y="109.22" smashed="yes">
+<attribute name="NAME" x="147.32" y="108.458" size="1.524" layer="95"/>
+<attribute name="VALUE" x="144.018" y="110.617" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MOT_Y1" gate="-2" x="144.78" y="106.68" smashed="yes">
+<attribute name="NAME" x="147.32" y="105.918" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y1" gate="-3" x="144.78" y="104.14" smashed="yes">
+<attribute name="NAME" x="147.32" y="103.378" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y1" gate="-4" x="144.78" y="101.6" smashed="yes">
+<attribute name="NAME" x="147.32" y="100.838" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y2" gate="-1" x="314.96" y="109.22" smashed="yes">
+<attribute name="NAME" x="317.5" y="108.458" size="1.524" layer="95"/>
+<attribute name="VALUE" x="314.198" y="110.617" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MOT_Y2" gate="-2" x="314.96" y="106.68" smashed="yes">
+<attribute name="NAME" x="317.5" y="105.918" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y2" gate="-3" x="314.96" y="104.14" smashed="yes">
+<attribute name="NAME" x="317.5" y="103.378" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Y2" gate="-4" x="314.96" y="101.6" smashed="yes">
+<attribute name="NAME" x="317.5" y="100.838" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Z" gate="-1" x="320.04" y="208.28" smashed="yes">
+<attribute name="NAME" x="322.58" y="207.518" size="1.524" layer="95"/>
+<attribute name="VALUE" x="319.278" y="209.677" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="MOT_Z" gate="-2" x="320.04" y="205.74" smashed="yes">
+<attribute name="NAME" x="322.58" y="204.978" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Z" gate="-3" x="320.04" y="203.2" smashed="yes">
+<attribute name="NAME" x="322.58" y="202.438" size="1.524" layer="95"/>
+</instance>
+<instance part="MOT_Z" gate="-4" x="320.04" y="200.66" smashed="yes">
+<attribute name="NAME" x="322.58" y="199.898" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -24090,8 +24214,8 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="124.46" y1="210.82" x2="137.16" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="210.82" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
 <junction x="124.46" y="210.82"/>
-<pinref part="MOT_X" gate="A" pin="1"/>
 <wire x1="137.16" y1="205.74" x2="142.24" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="MOT_X" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -24105,9 +24229,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="119.38" y1="205.74" x2="124.46" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="205.74" x2="132.08" y2="205.74" width="0.1524" layer="91"/>
 <junction x="124.46" y="205.74"/>
-<pinref part="MOT_X" gate="A" pin="2"/>
 <wire x1="132.08" y1="205.74" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="203.2" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="MOT_X" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -24117,9 +24241,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="X" gate="-2" pin="KL"/>
 <wire x1="116.84" y1="205.74" x2="116.84" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="MOT_X" gate="A" pin="3"/>
 <wire x1="124.46" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
 <junction x="124.46" y="200.66"/>
+<pinref part="MOT_X" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -24131,9 +24255,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="116.84" y1="195.58" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="195.58" x2="132.08" y2="195.58" width="0.1524" layer="91"/>
 <junction x="124.46" y="195.58"/>
-<pinref part="MOT_X" gate="A" pin="4"/>
 <wire x1="132.08" y1="195.58" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="198.12" x2="142.24" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="MOT_X" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -24387,8 +24511,8 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="124.46" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="114.3" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <junction x="124.46" y="114.3"/>
-<pinref part="MOT_Y1" gate="A" pin="1"/>
 <wire x1="137.16" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="MOT_Y1" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -24402,9 +24526,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
 <junction x="124.46" y="109.22"/>
-<pinref part="MOT_Y1" gate="A" pin="2"/>
 <wire x1="132.08" y1="109.22" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="MOT_Y1" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -24414,9 +24538,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="Y1" gate="-2" pin="KL"/>
 <wire x1="116.84" y1="109.22" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="MOT_Y1" gate="A" pin="3"/>
 <wire x1="124.46" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <junction x="124.46" y="104.14"/>
+<pinref part="MOT_Y1" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -24428,9 +24552,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="116.84" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
 <junction x="124.46" y="99.06"/>
-<pinref part="MOT_Y1" gate="A" pin="4"/>
 <wire x1="132.08" y1="99.06" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="MOT_Y1" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -24554,8 +24678,8 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="294.64" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="114.3" x2="307.34" y2="109.22" width="0.1524" layer="91"/>
 <junction x="294.64" y="114.3"/>
-<pinref part="MOT_Y2" gate="A" pin="1"/>
 <wire x1="307.34" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="MOT_Y2" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -24569,9 +24693,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="289.56" y1="109.22" x2="294.64" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="109.22" x2="302.26" y2="109.22" width="0.1524" layer="91"/>
 <junction x="294.64" y="109.22"/>
-<pinref part="MOT_Y2" gate="A" pin="2"/>
 <wire x1="302.26" y1="109.22" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="106.68" x2="312.42" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="MOT_Y2" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -24581,9 +24705,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="Y2" gate="-2" pin="KL"/>
 <wire x1="287.02" y1="109.22" x2="287.02" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="104.14" x2="294.64" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="MOT_Y2" gate="A" pin="3"/>
 <wire x1="294.64" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
 <junction x="294.64" y="104.14"/>
+<pinref part="MOT_Y2" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -24595,9 +24719,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="287.02" y1="99.06" x2="294.64" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="99.06" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
 <junction x="294.64" y="99.06"/>
-<pinref part="MOT_Y2" gate="A" pin="4"/>
 <wire x1="302.26" y1="99.06" x2="302.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="101.6" x2="312.42" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="MOT_Y2" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -24697,8 +24821,8 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="299.72" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="213.36" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
 <junction x="299.72" y="213.36"/>
-<pinref part="MOT_Z" gate="A" pin="1"/>
 <wire x1="312.42" y1="208.28" x2="317.5" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="MOT_Z" gate="-1" pin="S"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -24712,9 +24836,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="294.64" y1="208.28" x2="299.72" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="208.28" x2="307.34" y2="208.28" width="0.1524" layer="91"/>
 <junction x="299.72" y="208.28"/>
-<pinref part="MOT_Z" gate="A" pin="2"/>
 <wire x1="307.34" y1="208.28" x2="307.34" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="205.74" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="MOT_Z" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -24724,9 +24848,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="Z" gate="-2" pin="KL"/>
 <wire x1="292.1" y1="208.28" x2="292.1" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="203.2" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="MOT_Z" gate="A" pin="3"/>
 <wire x1="299.72" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
 <junction x="299.72" y="203.2"/>
+<pinref part="MOT_Z" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -24738,9 +24862,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="292.1" y1="198.12" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="198.12" x2="307.34" y2="198.12" width="0.1524" layer="91"/>
 <junction x="299.72" y="198.12"/>
-<pinref part="MOT_Z" gate="A" pin="4"/>
 <wire x1="307.34" y1="198.12" x2="307.34" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="200.66" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="MOT_Z" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$66" class="0">
