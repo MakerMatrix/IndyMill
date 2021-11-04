@@ -18447,6 +18447,25 @@ RST	GND</description>
 <text x="0" y="5.8158" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SOT95P280X110-6N" urn="urn:adsk.eagle:footprint:31979662/1">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.2788" y="1.7586" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5686" x2="0.7" y2="1.5686" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5686" x2="0.7" y2="-1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.228" y="0.95" dx="1.2593" dy="0.6092" layer="1"/>
+<smd name="2" x="-1.228" y="0" dx="1.2593" dy="0.6092" layer="1"/>
+<smd name="3" x="-1.228" y="-0.95" dx="1.2593" dy="0.6092" layer="1"/>
+<smd name="4" x="1.228" y="-0.95" dx="1.2593" dy="0.6092" layer="1"/>
+<smd name="5" x="1.228" y="0" dx="1.2593" dy="0.6092" layer="1"/>
+<smd name="6" x="1.228" y="0.95" dx="1.2593" dy="0.6092" layer="1"/>
+<text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:24289151/1" type="model">
@@ -18482,6 +18501,13 @@ RST	GND</description>
 &lt;p&gt;28-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 9.70 X 4.40 X 1.20 mm and thermal pad size 6.20 X 2.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOP65P640X120-29T275X620N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X110-6N" urn="urn:adsk.eagle:package:31979638/1" type="model">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X110-6N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -18634,6 +18660,21 @@ RST	GND</description>
 <wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.1524" layer="94"/>
 <text x="-12.7" y="20.32" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="OR_GATE_3_INPUT">
+<pin name="A" x="-12.7" y="5.08" length="middle"/>
+<pin name="C" x="-12.7" y="-5.08" length="middle"/>
+<pin name="B" x="-12.7" y="0"/>
+<pin name="Y" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VCC" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-12.7" y1="7.62" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="7.62" y2="0" width="0.1524" layer="94" curve="-75.963757"/>
+<wire x1="-2.54" y1="-7.62" x2="7.62" y2="0" width="0.1524" layer="94" curve="75.963757"/>
+<text x="-11.938" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.192" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -18809,6 +18850,34 @@ Movement – UART Interface Option – Sensorless Stall Detection StallGuard4</d
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31349286/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74LVC1G332">
+<description>3 input or gate by Texas Instruments
+
+SN74LVC1G332DBVR
+
+74LVC 10μA 1.65V ~ 5.5V 1 ORGate 3 SOT-23-6 Gates ROHS</description>
+<gates>
+<gate name="G$1" symbol="OR_GATE_3_INPUT" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="SOT23_SN74LVC1G332" package="SOT95P280X110-6N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31979638/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22245,6 +22314,9 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="MOT_Y1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
 <part name="MOT_Y2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
 <part name="MOT_Z" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="U$5" library="NikodemBartnik" deviceset="SN74LVC1G332" device="SOT23_SN74LVC1G332" package3d_urn="urn:adsk.eagle:package:31979638/1" value="SN74LVC1G332"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23087,6 +23159,20 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="97.79" y="31.75" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="XY1Z_DIAG_OR" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="90.17" y1="158.75" x2="92.71" y2="158.75" width="0.1524" layer="91"/>
+<label x="92.964" y="158.75" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Y2_DIAG" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="90.17" y1="156.21" x2="92.964" y2="156.21" width="0.1524" layer="91"/>
+<label x="92.964" y="156.21" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -23192,6 +23278,16 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="P+30" gate="1" x="83.82" y="127.254" smashed="yes">
 <attribute name="VALUE" x="81.28" y="122.174" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$5" gate="G$1" x="48.26" y="142.24" smashed="yes">
+<attribute name="NAME" x="36.322" y="151.13" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.068" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="48.26" y="121.92" smashed="yes">
+<attribute name="VALUE" x="45.72" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="P+31" gate="1" x="48.26" y="160.274" smashed="yes">
+<attribute name="VALUE" x="45.72" y="155.194" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23251,6 +23347,11 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="210.82" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="152.4" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
 <junction x="213.36" y="144.78"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="48.26" y1="124.46" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="COOL_ENABLE" class="0">
@@ -23353,6 +23454,39 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="P+30" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="119.38" x2="83.82" y2="124.714" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VCC"/>
+<pinref part="P+31" gate="1" pin="+5V"/>
+<wire x1="48.26" y1="154.94" x2="48.26" y2="157.734" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="X_DIAG" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<label x="30.48" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="Y1_DIAG" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="B"/>
+<wire x1="35.56" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
+<label x="30.48" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="Z_DIAG" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="30.48" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="XY1Z_DIAG_OR" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="Y"/>
+<wire x1="60.96" y1="142.24" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
+<label x="63.5" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -24619,7 +24753,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="149.86" y1="81.28" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="Y_DIAG2" class="0">
+<net name="Y2_DIAG" class="0">
 <segment>
 <pinref part="Y_DRV2" gate="G$1" pin="DIAG"/>
 <wire x1="279.4" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
@@ -24786,7 +24920,7 @@ Number of pins: &lt;b&gt;4&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="320.04" y1="81.28" x2="313.436" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="Y_DIAG1" class="0">
+<net name="Y1_DIAG" class="0">
 <segment>
 <pinref part="Y_DRV1" gate="G$1" pin="DIAG"/>
 <wire x1="109.22" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>

@@ -1,3 +1,6 @@
+04.11.2021:
+OR gate added to the diag pins and connected to the microcontroller. Thicker traces for VIN and some signals. Now it's just about perfecting the design and adding more features.
+
 31.10.2021:
 I simplified the whole schematic and got rid of additional screw terminals for external stepper drivers, start, hold and resum buttons (to have some additional free pins on the microcontroller). I will use those pins to handle DIAG pins of the drivers, there will be an OR gate for X, Y1 and Z axis as we will home only one at a time but Y2 will be connected separetely so that we can properly square the CNC.
 I started routing some more components on the PCB, it's going well.
